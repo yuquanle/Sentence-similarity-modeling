@@ -344,10 +344,6 @@ extern double SRL_re_ranking_ACL2009(KERNEL_PARM * kernel_parm, DOC * a, DOC * b
 
 extern void read_input_tree_kernel_param();
 
-# ifdef MICROSOFT
-   int isnan(double);
-# endif
-
 extern long   verbosity;              /* verbosity level (0-4) */
 extern long   kernel_cache_statistic;
 extern double LAMBDA;
